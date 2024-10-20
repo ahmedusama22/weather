@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="nav p-3 bg-nav mb-0">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="nav-logo">
+          <img src="./imgs/logo@2x.png" class="w-75" alt="weather logo" />
+        </div>
+        <div class="nav-links">
+          <ul class="d-flex list-unstyled">
+            <li class="me-5">
+              <a href="#" class="text-decoration-none text-white">Home</a>
+            </li>
+            <li class="me-5">
+              <a href="#" class="text-decoration-none text-white">News</a>
+            </li>
+            <li class="me-5">
+              <a href="#" class="text-decoration-none text-white"
+                >Live Cameras</a
+              >
+            </li>
+            <li class="me-5">
+              <a href="#" class="text-decoration-none text-white">Photos</a>
+            </li>
+            <li class="me-5">
+              <a href="#" class="text-decoration-none text-white">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="body bg-nav bg-img text-white">
+      <div class="container py-5 text-white">
+        <div class="input-search position-relative">
+          <input
+            type="search"
+            placeholder="Find Your Location"
+            class="form-control rounded-pill p-3"
+            id="searchInput"
+          />
+          <button
+            class="btn rounded-pill position-absolute top-0 end-0 btn-info p-3 px-5 text-black"
+            id="searchButton"
+          >
+            Find
+          </button>
+        </div>
+
+        <div class="row py-5" id="rowData"></div>
+      </div>
+    </div>
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/index.js"></script>
+  </body>
+</html>

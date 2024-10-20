@@ -1,0 +1,25 @@
+.fs-90 {
+    font-size: 90px;
+  }
+  .bg-nav {
+    background-color: #1e202b;
+  }
+  .bg-card {
+    background-color: #323544;
+  }
+  
+  .bg-img {
+    background-image: url(../imgs/banner.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .bg-transparent {
+    background-color: transparent;
+  }
+  #rowData .card {
+    height: 100%; /* Makes the cards take up the full height of the container */
+  }
+  .container {
+    width: 80%;
+  }
